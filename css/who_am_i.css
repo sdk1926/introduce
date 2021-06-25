@@ -18,12 +18,18 @@
     justify-content: space-between;
     margin-bottom: 30px;
 }
+.who_paragrap{
+    min-width: 300px;
+}
 .who_img{
     width: 350px;
     height: 350px;
     min-width: 100px;
     min-height: 100px;
     border-radius: none;
+}
+.who_img:last-child{
+    padding-bottom: 20px;
 }
 .who_mini_title{
     margin-bottom: 15px;
