@@ -10,13 +10,14 @@
 .who_title_title{
     font-size: 3rem;
     font-weight: 800;
+    margin-top: 50px;
     
 }
 .who_am_i_box{
     width: 80%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 .who_paragrap{
     min-width: 300px;
