@@ -1,0 +1,36 @@
+.who_am_i_main{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.who_title_title{
+    font-size: 3rem;
+    font-weight: 800;
+    
+}
+.who_am_i_box{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.who_img{
+    width: 350px;
+    height: 350px;
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: none;
+}
+.who_mini_title{
+    margin-bottom: 15px;
+}
+.who_text_box{
+    padding-right: 20%;
+}
+.who_text_box > p{
+    line-height: 2.0;
+}
