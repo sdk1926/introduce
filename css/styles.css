@@ -1,74 +1,77 @@
 /* header */
 @import 'nav.css';
 @import 'who_am_i.css';
+@import 'index_query.css';
 /* main */
-main{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.text_box_title{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.text_box_title > p{
-    color:rgb(77, 77, 77);
-    margin-bottom: 5px;
-}
-h1{
-    font-size: 4rem;
-    font-weight: 800;
-    padding-bottom: 20px;
-    
-}
-.img_box{
-    margin-right: 40px;
-}
-#index_img{
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-    
-}
-.who_contact_sircle{
-    display: flex;
-}
-.who_contact_sircle > div{
-    margin-top: 35px;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.who_contact_sircle > div:first-child{
-    background-color: 	#fef01b;
-    margin-right: 15px;
-}
-/* footer */
-footer{
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.footer_bar{
-    border-top: 1px solid rgb(213, 213, 213);
-    padding-top: 20px;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.footer_box{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
-.footer_span{
-    display: block;
-    margin-bottom: 7px;
-    font-weight: 800;
+@media (min-width:769px) {
+    main{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text_box_title{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text_box_title > p{
+        color:rgb(77, 77, 77);
+        margin-bottom: 5px;
+    }
+    h1{
+        font-size: 4rem;
+        font-weight: 800;
+        padding-bottom: 20px;
+        
+    }
+    .img_box{
+        margin-right: 40px;
+    }
+    #index_img{
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+        
+    }
+    .who_contact_sircle{
+        display: flex;
+    }
+    .who_contact_sircle > div{
+        margin-top: 35px;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .who_contact_sircle > div:first-child{
+        background-color: 	#fef01b;
+        margin-right: 15px;
+    }
+    /* footer */
+    footer{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .footer_bar{
+        border-top: 1px solid rgb(213, 213, 213);
+        padding-top: 20px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer_box{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .footer_span{
+        display: block;
+        margin-bottom: 7px;
+        font-weight: 800;
+    }
 }
