@@ -1,9 +1,12 @@
-/* header */
 @import 'nav.css';
-@import 'who_am_i.css';
 @import 'index_query.css';
+@import 'who_am_i.css';
+*{
+    margin: 0;
+}
 /* main */
 @media (min-width:769px) {
+    
     main{
         display:flex;
         justify-content: center;

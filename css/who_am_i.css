@@ -1,5 +1,5 @@
 @media (min-width:769px) {
-    body{
+    .who_body{
         height:auto;
         display: grid;
         grid-template-rows: 7% 86% 7%;
@@ -51,7 +51,7 @@
     }
 }
 @media (max-width:768px) {
-    body{
+    .who_body{
         height:auto;
         display: flex;
         background-color: rgba(229, 230, 233, 0.304);
